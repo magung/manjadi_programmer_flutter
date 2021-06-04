@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.magung.menjadi_programmer.menjadi_programmer">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="menjadi_programmer"
+        android:label="Menjadi Programmer"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
@@ -37,5 +38,8 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+       <meta-data
+           android:name="com.google.android.gms.ads.APPLICATION_ID"
+           android:value="ca-app-pub-3846512692525748~4600675433"/>
     </application>
 </manifest>
